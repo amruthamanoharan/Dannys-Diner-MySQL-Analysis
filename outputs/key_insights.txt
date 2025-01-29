@@ -1,0 +1,21 @@
+### Key Insights from Danny's Diner SQL Analysis
+
+1. Customer Behavior:
+
+   - Customer A spent the most overall, followed by B.
+   - Customer A visited the restaurant 6 times, the most frequent visitor.
+
+2. Menu Popularity:
+
+   - Ramen is the most purchased item, with 12 orders across all customers.
+   - Sushi is the second most popular item.
+
+3. Loyalty Program Effectiveness:
+
+   - Members purchase more frequently after joining the program.
+   - Customer A made 4 purchases after joining the loyalty program, compared to 2 before joining.
+
+4. Recommendations:
+
+   - Focus promotions on ramen and sushi to drive sales.
+   - Target Customer C for loyalty program enrollment to increase engagement.
