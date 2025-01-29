@@ -70,7 +70,7 @@ SELECT
 FROM sales
 GROUP BY customer_id;
 ```
-📌 Insight: Customer A visited the most frequently, followed by B and C.
+📌 Insight: Customer B visited the most frequently, followed by A and C.
 
 ---
 
@@ -91,10 +91,9 @@ LIMIT 1;
 ### 🎁 4. Loyalty Program Effectiveness
 ```sql
 SELECT 
-    customer_id,
-    COUNT(*) AS purchases_after_membership
-FROM sales
-JOIN members ON sales.customer_id = members.customer_id
+    customer_id,COUNT(*) AS purchases_after_membership
+FROM dannys_diner.sales s
+JOIN dannys_diner.members m USING(customer_id)
 WHERE order_date >= join_date
 GROUP BY customer_id;
 ```
