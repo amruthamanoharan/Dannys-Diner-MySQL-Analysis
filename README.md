@@ -24,21 +24,6 @@ Each dataset is structured in a relational schema, allowing for efficient queryi
 
 ---
 
-## 🔍 Key Questions Answered
-This project answers the following key business questions:
-1. How much has each customer spent at the restaurant?
-2. How often do customers visit the restaurant?
-3. What is the most purchased item on the menu?
-4. What menu item is most popular for each customer?
-5. How effective is the loyalty program?
-
-### Bonus Questions
-I also explored advanced questions, such as:
-- Which items were purchased just before and after customers became loyalty members?
-- How many points would each customer earn with special promotions?
-
----
-
 ## 🛠️ Tools Used
 - **SQL Database**: MySQL
 - **Query Editor**: MySQL Workbench
@@ -101,10 +86,37 @@ GROUP BY customer_id;
 
 ---
 
-## 📊 Key Insights
-- **Customer Spending**: Customer A spent the most overall, with significant spending on sushi.
-- **Popular Items**: Ramen is the most frequently purchased item.
-- **Loyalty Program**: Customers tend to order more frequently after joining the loyalty program, suggesting it’s effective in driving engagement.
+## 📊 Key Insights 
+
+### 1️⃣ Customer Behavior:
+- **Customer A** is the highest spender, followed by Customer B.
+- **Customer A** visited the restaurant **6 times**, making them the most frequent visitor.
+- **Customer C** has the least visits, presenting an opportunity to increase engagement.
+
+### 2️⃣ Menu Popularity:
+- **Ramen** is the most purchased item, with **12 total orders** across all customers.
+- **Sushi** is the second most popular item, making it a strong candidate for promotions.
+
+### 3️⃣ Loyalty Program Effectiveness:
+- Customers **increase their purchase frequency after joining the loyalty program**.
+- **Customer A made 4 purchases after joining**, compared to **2 before enrollment**.
+- **Customer B showed similar behavior**, reinforcing the effectiveness of the loyalty program.
+
+### 4️⃣ Recommendations for Business Growth:
+  ✅ **Leverage Promotions**:  
+     - Offer targeted discounts on **Ramen and Sushi** to further boost sales.  
+     - Introduce a **"Ramen Lovers Club"** for repeat customers.  
+  
+  ✅ **Enhance Loyalty Program**:  
+     - Encourage **Customer C** to join by offering an exclusive **"first-time member"** discount.  
+     - Provide personalized offers to **frequent visitors (Customer A)** to ensure continued engagement.
+  
+  ✅ **Optimize Menu Strategy**:  
+     - Consider bundling **Sushi + Ramen** into a combo meal for cross-selling opportunities.  
+
+---
+## 🚀 Next Steps
+Further analysis can explore peak dining hours, average order value per visit, and seasonal trends to refine marketing strategies.
 
 ---
 
