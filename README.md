@@ -121,6 +121,7 @@ This project highlights:
 - **`datasets/dannys_diner_data.sql`**: SQL script to recreate the database tables and insert data.
 - **`queries/main_analysis.sql`**: SQL queries answering the core case study questions.
 - **`queries/bonus_questions.sql`**: Advanced queries for bonus questions.
+- **`outputs/:`** Key insights and CSVs summarizing results.
 
 ---
 
