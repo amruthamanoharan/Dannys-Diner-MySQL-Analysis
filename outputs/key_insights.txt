@@ -3,7 +3,7 @@
 1. Customer Behavior:
 
    - Customer A spent the most overall, followed by B.
-   - Customer A visited the restaurant 6 times, the most frequent visitor.
+   - Customer B visited the restaurant 6 times, the most frequent visitor.
 
 2. Menu Popularity:
 
