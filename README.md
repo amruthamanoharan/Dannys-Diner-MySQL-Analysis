@@ -140,7 +140,7 @@ This project highlights:
 ## 🚀 How to Use This Repository
 1. Clone the repository:
    ```bash
-   git clone https://github.com/amruthamanoharan/Dannys-Diner-MySQL-Analysis.git
+   git clone https://github.com/amruthamanoharan/Dannys-Diner-SQL-Analysis.git
    ```
 2. Import the dataset:
     - Use the script in `datasets/dannys_diner_schema.sql` to create the database.
